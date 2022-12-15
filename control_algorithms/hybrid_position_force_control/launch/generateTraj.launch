@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+
+  <node pkg="hybrid_position_force_control" name="generateTraj" type="generate_traj" output="screen"/>
+</launch>
