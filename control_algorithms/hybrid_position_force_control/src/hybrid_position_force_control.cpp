@@ -182,8 +182,8 @@ void hybrid_position_force_control::state_wrench_callback(
   if (ft_arm_ready_) {
     wrench_ft_frame <<  0.0,
                         0.0,
+                        -msg->wrench.force.z,
                         0.0,
-                        -msg->wrench.torque.y,
                         0.0,
                         0.0;
     for (std::size_t i = 0; i < 3; i++) {

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+
+
+  <node pkg="hybrid_position_force_control" name="generateWrench" type="generate_wrench" output="screen"/>
+
+
+</launch>
